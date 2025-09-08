@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Payload-Meterpreter-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Platform-Linux-black?style=for-the-badge&logo=linux"/>
   <img src="https://img.shields.io/badge/Status-Educational-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge"/>
+  <a href="https://github.com/Rush1patel/meterpreter-session-project/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge"/>
 </p>
 
 ---
