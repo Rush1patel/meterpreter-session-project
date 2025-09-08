@@ -16,46 +16,20 @@ Make sure you have:
 
 ---
 
-## 0.1 Install Nmap
+## 0.1 Install Metasploit
 
 ```bash
 sudo apt update
-sudo apt install nmap -y
+sudo apt install metasploit -y
 ```
 
 ## 0.2 Verify Installation
 
 ```bash
-nmap --version
+msfconsole --version
 ```
 
-Expected output (example):
-
-```less
-Nmap version 7.93 ( https://nmap.org )
-```
-
-## 🔎 Step 1: Reconnaissance — Nmap Service Scan
-
-Scan your local system to see open ports and service versions:
-
-```bash
-nmap -sV -p- "VICTIM'S IP ADDRESS"
-```
-
-*   `-sV` → Detect service/version
-*   `-p-` → Scan all ports
-
-Example Output (conceptual):
-
-| Port | Service | Version    | Defensive Notes                     |
-| :--- | :------ | :--------- | :---------------------------------- |
-| 22   | ssh     | OpenSSH 8.2 | Monitor for brute-force attempts    |
-| 80   | http    | Apache 2.4 | Check patch level and misconfigs    |
-
-**Defensive Tip:** Track log events for unusual port scans or repeated connections.
-
-## 🖥️ Step 2: Generate Conceptual Payload
+## 🖥️ Step 1: Generate Conceptual Payload
 
 Objective: Understand how attackers deliver a reverse shell using `msfvenom`.
 
@@ -75,7 +49,7 @@ ls -lah /home/*/
 find /tmp/ -type f -perm /111
 ```
 
-## 🔄 Step 3: Set Up Metasploit Listener
+## 🔄 Step 2: Set Up Metasploit Listener
 
 Objective: Prepare the listener (C2) to receive the payload (conceptual).
 
@@ -95,7 +69,7 @@ run
 
 **Defensive Tip:** Monitor processes listening on unexpected ports and alert on unknown network traffic.
 
-## 🚀 Step 4: Simulate Payload Execution
+## 🚀 Step 3: Simulate Payload Execution
 
 Simulate victim execution:
 
@@ -118,7 +92,7 @@ journalctl -xe
 tail -f /var/log/auth.log
 ```
 
-## 🧩 Step 5: Post-Exploitation Exploration (Conceptual)
+## 🧩 Step 4: Post-Exploitation Exploration (Conceptual)
 
 Attacker perspective (conceptual commands):
 
