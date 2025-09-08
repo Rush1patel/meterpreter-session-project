@@ -8,6 +8,8 @@
   <img src="https://img.shields.io/badge/Platform-Linux-black?style=for-the-badge&logo=linux"/>
   <img src="https://img.shields.io/badge/Status-Educational-green?style=for-the-badge"/>
   <a href="https://github.com/Rush1patel/meterpreter-session-project/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge"/>
+    <a href="https://github.com/Rush1patel/meterpreter-session-project/stargazers"><img src="https://img.shields.io/github/stars/Rush1patel/meterpreter-session-project?style=for-the-badge&logo=github&label=Stars" alt="GitHub Stars"/></a>
+  <a href="https://github.com/Rush1patel/meterpreter-session-project/network/members"><img src="https://img.shields.io/github/forks/Rush1patel/meterpreter-session-project?style=for-the-badge&logo=github&label=Forks" alt="GitHub Forks"/></a>
 </p>
 
 ---
