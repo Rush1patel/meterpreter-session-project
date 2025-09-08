@@ -81,7 +81,10 @@ meterpreter-session-project/
 ├── LICENSE                 # MIT License
 ├── project_instructions.md # Step-by-step guide (conceptual & defensive focus)
 ├── cleanup.md              # Cleanup & recovery guidance # Artifacts, logs, detection tips (defender view)
+
 ```
+⚠️ This project includes a **safe demo payload** (`shell64.elf`) for educational purposes only — it is harmless.
+
 
 ---
 
