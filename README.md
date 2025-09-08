@@ -77,10 +77,13 @@ To follow this project, you’ll need:
 ```text
 meterpreter-session-project/
 │
-├── README.md               # Project showcase (this file)
-├── LICENSE                 # MIT License
-├── project_instructions.md # Step-by-step guide (conceptual & defensive focus)
-├── cleanup.md              # Cleanup & recovery guidance # Artifacts, logs, detection tips (defender view)
+├── LICENSE                    # MIT License
+├── README.md                   # Main project README
+└── Msfvenom/                   # Folder for project files
+    ├── project_instructions.md # Step-by-step instructions
+    ├── cleanup.md              # Cleanup & recovery guidance
+    └── shell64.elf             # Demo payload (safe or conceptual)
+
 
 ```
 ⚠️ This project includes a **safe demo payload** (`shell64.elf`) for educational purposes only — it is harmless.
