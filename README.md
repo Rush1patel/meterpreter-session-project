@@ -80,9 +80,7 @@ meterpreter-session-project/
 ├── README.md               # Project showcase (this file)
 ├── LICENSE                 # MIT License
 ├── project_instructions.md # Step-by-step guide (conceptual & defensive focus)
-├── cleanup.md              # Cleanup & recovery guidance
-└── notes/
-    └── blue_team_findings.md  # Artifacts, logs, detection tips (defender view)
+├── cleanup.md              # Cleanup & recovery guidance # Artifacts, logs, detection tips (defender view)
 ```
 
 ---
